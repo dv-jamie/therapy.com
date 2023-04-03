@@ -45,9 +45,9 @@
     cursor: pointer;
 }
 .list-navi > .current-list {
-    color: var(--primary-orange);
+    color: var(--sub-orange);
     font-weight: 700;
-    border-bottom: 2px solid var(--primary-orange);
+    border-bottom: 2px solid var(--sub-orange);
 }
 
 .list-card-wrap {

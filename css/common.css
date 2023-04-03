@@ -15,6 +15,9 @@
 .red-text {
     color: var(--primary-red) !important;
 }
+.orange-text {
+    color: var(--primary-orange) !important;
+}
 .green-text {
     color: var(--primary-green) !important;
 }
@@ -26,6 +29,9 @@
 }
 .underline-text {
     text-decoration: underline;
+}
+.line-through-text {
+    text-decoration: line-through;
 }
 
 /*
@@ -469,6 +475,119 @@
 }
 .card-additional-info-wrap > img {
     float: right;
+}
+
+/*
+유료서비스 신청 페이지
+*/
+.paid-service-wrap {
+    margin-top: 20px;
+}
+.paid-service-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 50px 44px;
+    border-radius: 4px;
+    border: 1px solid var(--gray-d9);
+}
+.paid-service-name {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46.43px;
+    letter-spacing: -0.1em;
+}
+h2.paid-service-name {
+    position: relative;
+}
+h2.paid-service-name > .icon {
+    position: absolute;
+    left: -5px;
+    bottom: -5px;
+    z-index: -1;
+}
+
+.paid-service-desc {
+    margin: 30px 0;
+    color: var(--gray-76);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.08em;
+}
+.paid-service-desc .tag {
+    display: inline-block;
+    width: 115px;
+    height: 25px;
+    font-weight: 700;
+    font-size: 14px;
+    background: linear-gradient(to right, var(--primary-orange), #FF7B5A, var(--primary-orange));
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.45);
+    transform: translateY(-2px);
+}
+.paid-service-desc > .bold-text {
+    display: inline-block;
+    margin-bottom: 4px;
+    color: #333;
+}
+
+.price-list-wrap {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+.price-list {
+    font-size: 16px;
+}
+.price-list-type {
+    display: inline-block;
+    padding: 6px 19px;
+    border-radius: 4px 0 0 4px;
+    background: var(--primary-yellow);
+    font-weight: 700;
+    letter-spacing: -0.1em;
+}
+.price {
+    display: inline-block;
+    margin-left: -8px;
+    padding: 6px 20px;
+    border-radius: 0 4px 4px 0;
+    background: var(--gray-f1);
+    font-weight: 700;
+    letter-spacing: -0.05em;
+}
+.price .line-through-text {
+    font-weight: 500;
+}
+
+.paid-service-button-wrap {
+    max-width: 350px;
+}
+.paid-service-button-wrap > .button {
+    margin: 3px;
+    padding: 20px 0;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: -0.08em;
+    cursor: pointer;
+}
+.paid-service-button-wrap > .yellow-button {
+    background: var(--primary-yellow);
+    color: #333;
+}
+.paid-service-button-wrap > .orange-button {
+    background: var(--button-orange);
+    color: #fff;
+}
+.paid-service-button-wrap > .gray-button {
+    background: var(--primary-gray);
+    color: #fff;
 }
 
 /*
