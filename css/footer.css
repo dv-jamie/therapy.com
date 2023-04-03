@@ -4,6 +4,7 @@
 .footer-company-info {
     width: 1400px;
     margin: 0 auto;
+    font-family: 'nanumbarungothic', 'sans-serif';
 }
 .shortcut-link {
     display: flex;
@@ -205,6 +206,7 @@ footer-guide-wrap
     font-weight: 700;
     font-size: 32px;
     letter-spacing: -0.04em;
+    font-family: 'Pretendard', 'sans-serif';
 }
 
 .cs-info-wrap {
@@ -253,6 +255,7 @@ footer-guide-wrap
     font-weight: 600;
     font-size: 26px;
     letter-spacing: -0.05em;
+    font-family: 'Pretendard', 'sans-serif';
 }
 .symbol {
     margin-left: 54px;
